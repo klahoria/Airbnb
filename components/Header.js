@@ -100,7 +100,6 @@ function Header(props) {
       </div>
       {searchInput && (
         <div className="flex flex-col col-span-3 mx-auto">
-          {/* <Calendar date={new Date()} onChange={(e) => console.log(e)} /> */}
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}
